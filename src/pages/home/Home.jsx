@@ -44,6 +44,9 @@ const Home = () => {
     setViews(true);
     setViewsSuccess(false);
 
+    setViews(true);
+    setViewsFailure(false)
+
     setValues({
       full_name: "",
       email: "",
