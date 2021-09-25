@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+.footer {
+    background: #fff;
+    padding: auto;
+}
+
+.footer h1 {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 38px;
+    color: #1B449B;
+}
+
+h1 > span {
+    font-weight: bold;
+    font-size: 18px;
+}

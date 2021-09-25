@@ -1,0 +1,202 @@
+@import url('http://fonts.cdnfonts.com/css/graphik');
+
+.payvice__navbar {
+    padding: 20px 0;
+}
+
+.payvice__logo {
+    width: 100px;
+    /* height: 54.29px; */
+}
+
+@media only screen and (max-width:1024px) {
+    .payvice__logo {
+        width: 50px;
+    }
+}
+
+.payvice__header h3 {
+    font-family: "graphik";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
+    color:  #050038;
+}
+
+@media only screen and (max-width: 1024px) {
+    .payvice__header h3 {
+        font-size: 20px;
+        line-height: 20px;
+        margin: auto;
+    }
+}
+
+h3 span {
+    color: #0084FF;
+}
+
+@media only screen and (max-width: 1024px) {
+    h3 span {
+        color: #0084ff;
+    }
+}
+
+.payvice__header img {
+    top: -27px;
+    position: relative;
+    left: 19px;
+    width: 24%;
+}
+
+.payvice__header p {
+    max-width: 741px;
+    font-family: "graphik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 34px;
+    color: #050038;
+    margin: 15px auto;
+}
+
+.payvice__body {
+    padding: 50px -0px;
+}
+
+.payvice__body .payvice__img {
+    width: 75%;
+    height: 450px;
+}
+
+.payvice__body form {
+    max-width: 581px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: auto;
+    padding: 3em 3em 1em;
+}
+
+@media only screen and (max-width: 1024px) {
+    .payvice__body form {
+        max-width: 400px;
+        margin: auto;
+        padding: 15px
+    }
+}
+
+.payvice__body form p {
+    font-family: "graphik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+    color: #050038;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .payvice__body form p {
+        font-size: 12px;
+    }
+}
+
+.payvice__body .input-box {
+    position: relative;
+}
+
+.payvice__body form label {
+    font-family: "graphik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #050038;
+    background-color: #ffffff;
+    position: absolute;
+    pointer-events: none;
+    top: -14px;
+    left: 15px;
+}
+
+@media (max-width: 1024px) {
+    .payvice__body form label {
+        font-size: 12px;
+    }
+}
+
+/* .contact-form span {
+    padding: 2px 5px;
+    color: #FF0000;
+} */
+
+.payvice__body form input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    padding: .6em .5em;
+    background: #FFFFFF;
+    border: 0.2px solid rgba(69, 101, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.payvice__body form input[type="text"]:focus,
+.payvice__body form input[type="email"]:focus,
+.payvice__body form input[type="tel"]:focus {
+        background: #ffffff;
+        border: 0.2px solid rgba(69, 101, 255, 0.5);
+    } 
+
+@media (max-width: 1024px) {
+    .payvice__body form input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        padding: .4em .3em;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-size: 10px;
+      }
+}
+
+.payvice__body form button {
+    /* margin-top: 50px; */
+    margin-bottom: 30px;
+    background: #1B449B;
+    border-radius: 4px;
+    width: 100%;
+    color: #fff;
+    font-family: "graphik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 12px 15px;
+    text-decoration: none;
+    border: none;
+}
+
+.payvice__body form button:disabled {
+    opacity: 0.5;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .payvice__body form button {
+        padding: 6px 9px;
+        font-size: 12px;
+    }
+}
+
+.payvice__footer {
+    background-color: #ffffff;
+    padding: 20px auto;
+    margin-top: 100px;
+    overflow: hidden;
+}
