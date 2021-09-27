@@ -1,20 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
 
 .footer {
-    background: #fff;
-    padding: auto;
+  background: #fff;
+  position: absolute;
+  width: 100%;
+  min-height: 72px;
 }
 
+.table {
+  display: table;
+  margin: 0 auto;
+}
+
+ul#horizontal__list {
+  min-width: 696px;
+  list-style: none;
+  padding: 20px;
+}
+
+ul#horizontal__list li {
+  display: inline;
+  color: #1b449b;
+}
 .footer h1 {
-    font-family: "Mulish";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 38px;
-    color: #1B449B;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 38px;
+  color: #1b449b;
 }
 
 h1 > span {
-    font-weight: bold;
-    font-size: 18px;
+  font-weight: bold;
+  font-size: 18px;
 }

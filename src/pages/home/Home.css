@@ -193,9 +193,10 @@ input[type="tel"] {
     }
 }
 
-.payvice__footer {
-    background-color: #ffffff;
-    padding: 20px auto;
-    margin-top: 100px;
-    overflow: hidden;
-}
+/* .payvice__footer { */
+    /* background-color: #ffffff; */
+    /* padding: 20px auto;
+    margin-top: 100px; */
+    /* width: 100%;
+    overflow: hidden; */
+/* } */

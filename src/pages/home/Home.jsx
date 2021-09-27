@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Footer from "../../components/footer/Footer";
 
 import Success from "../success/Success";
-import Failure from "../success/Failure";
+// import Failure from "../success/Failure";
 
 import PayviceImg from "../../images/payvice-img.png";
 import PayViceLogo from "../../images/payvice-logo.png";
@@ -13,7 +13,7 @@ import "./Home.css";
 const Home = () => {
   const [views, setViews] = useState(true);
   const [viewsSuccess, setViewsSuccess] = useState(false);
-  const [viewsFailure, setViewsFailure] = useState(false);
+  // const [viewsFailure, setViewsFailure] = useState(false);
 
   const [values, setValues] = useState({
     full_name: "",
@@ -36,16 +36,16 @@ const Home = () => {
     setViews(false); //it will hide the current homepage details
     setViewsSuccess(true); //it will show the success component.
 
-    setViews(false);
-    setViewsFailure(true)
+    // setViews(false);
+    // setViewsFailure(true)
   };
 
   const backHome = () => {
     setViews(true);
     setViewsSuccess(false);
 
-    setViews(true);
-    setViewsFailure(false)
+    // setViews(true);
+    // setViewsFailure(false)
 
     setValues({
       full_name: "",
@@ -64,7 +64,7 @@ const Home = () => {
 //   }
 
   const successComponent = viewsSuccess ? <Success onClick={backHome} /> : null;
-  const failureComponent = viewsFailure ? <Failure onClick={backHome} /> : null;
+  // const failureComponent = viewsFailure ? <Failure onClick={homePage} /> : null;
 
   return (
     <div>
@@ -178,9 +178,9 @@ const Home = () => {
         </>
       ) : null}
       {successComponent}
-      {failureComponent}
+      {/* {failureComponent} */}
 
-      <section className="payvice__footer">
+      <section>
         <Footer />
       </section>
     </div>
