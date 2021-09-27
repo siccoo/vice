@@ -181,10 +181,7 @@ const Home = () => {
         {successComponent}
         {/* {failureComponent} */}
       </div>
-
-      <section>
         <Footer />
-      </section>
     </div>
   );
 };
