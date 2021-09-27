@@ -164,9 +164,9 @@ const Home = () => {
                         />
                       </div>
                       <button
-                        // disabled={
-                        //   !(values.full_name, values.email, values.phone_number)
-                        // }
+                        disabled={
+                          !(values.full_name, values.email, values.phone_number)
+                        }
                         onClick={handleSubmit}
                       >
                         Submit
