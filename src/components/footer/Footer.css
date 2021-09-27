@@ -26,23 +26,9 @@ a {
 }
 
 @media only screen and (max-width: 1024px) {
-    ul#horizontal__list li {
+    ul#horizontal__list {
        display: block;
        text-align: left;
     }
 }
 
-
-.footer h1 {
-    font-family: "Mulish";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 38px;
-    color: #1B449B;
-}
-
-h1 > span {
-    font-weight: bold;
-    font-size: 18px;
-}
