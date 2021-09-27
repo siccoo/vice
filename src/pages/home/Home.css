@@ -1,5 +1,15 @@
 @import url('http://fonts.cdnfonts.com/css/graphik');
 
+.payvice__container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.payvice__content__wrap {
+    flex: 1;
+}
+
 .payvice__navbar {
     padding: 10px 5px 5px 0;
 }
@@ -182,9 +192,9 @@ input[type="tel"] {
     border: none;
 }
 
-.payvice__body form button:disabled {
+/* .payvice__body form button:disabled {
     opacity: 0.5;
-}
+} */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .payvice__body form button {
@@ -192,11 +202,3 @@ input[type="tel"] {
         font-size: 12px;
     }
 }
-
-/* .payvice__footer { */
-    /* background-color: #ffffff; */
-    /* padding: 20px auto;
-    margin-top: 100px; */
-    /* width: 100%;
-    overflow: hidden; */
-/* } */
