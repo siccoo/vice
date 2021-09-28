@@ -129,13 +129,25 @@ const Home = () => {
                       </p>
                       <div className="form-group input-box">
                         <label for="exampleInputFullName1">
-                          Full Name <span></span>
+                          First Name <span></span>
                         </label>
                         <input
                           type="text"
-                          id="full_name"
-                          name="full_name"
-                          value={values.full_name}
+                          id="first_name"
+                          name="first_name"
+                          value={values.first_name}
+                          onChange={handleChange}
+                        />
+                      </div>
+                      <div className="form-group input-box">
+                        <label for="exampleInputLastName1">
+                          Last Name <span></span>
+                        </label>
+                        <input
+                          type="text"
+                          id="last_name"
+                          name="last_name"
+                          value={values.last_name}
                           onChange={handleChange}
                         />
                       </div>
